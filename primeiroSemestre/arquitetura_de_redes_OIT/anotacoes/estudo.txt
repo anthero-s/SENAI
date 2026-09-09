@@ -1,0 +1,62 @@
+estudo resumo
+
+
+4🔹 PWM (Pulse Width Modulation)
+
+Técnica para controlar potência variando o tempo em que o sinal está ligado.
+
+Usado para controlar motores, LEDs, etc.
+
+Comando: PWM(Pin(x)).duty(valor)
+
+🔹 Sensores e Atuadores (IN/OUT)
+
+Sensor: entrada digital ou analógica (Pin.IN)
+
+Atuador: saída digital, como LEDs, relés (Pin.OUT)
+
+🔹 Pull-Up e Pull-Down
+
+Pull-Up: mantém o pino em nível alto (1) quando nada está conectado.
+
+Pull-Down: mantém o pino em nível baixo (0).
+
+Evitam leituras falsas (ruídos).
+
+🔹 Biblioteca machine
+
+Controla hardware: pinos, PWM, ADC, I2C, etc.
+
+🔹 Biblioteca utime
+
+Controla tempo: sleep(), sleep_ms(), ticks_ms() e afins.
+
+
+
+1. PWM com LED RGB
+
+PWM controla a intensidade de cada cor (R, G, B) do LED variando o tempo de ligado/desligado. Combinando essas intensidades, é possível criar diversas cores.
+
+
+2. PULL UP vs. PULL DOWN (Botão)
+
+PULL UP: Entrada fica alta (1) por padrão, vai para baixa (0) ao pressionar.
+
+PULL DOWN: Entrada fica baixa (0) por padrão, vai para alta (1) ao pressionar.
+PULL UP é mais comum.
+
+
+
+3. Digital x Analógico
+
+Digital: Só tem dois estados (0 ou 1). Ex: botão liga/desliga.
+
+Analógico: Varia continuamente. Ex: potenciômetro ou sensor de temperatura.
+
+
+
+4. Sensor
+
+Dispositivo que capta algo do ambiente e envia um sinal.
+Exemplo: LM35 (temperatura). Pode acionar um ventilador se a temperatura for alta.
+

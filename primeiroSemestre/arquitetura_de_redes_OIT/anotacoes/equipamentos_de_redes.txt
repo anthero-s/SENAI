@@ -1,0 +1,83 @@
+equipamentos de rede 
+
+os equipamentos de rede sao responsaiveis pela interligação, comunicação e segurança em redes de computadores. 
+
+
+passivos
+
+- tomada de superfície 
+
+o que são?
+*as toamadas de superfície são pontos de conexão para cabos de rede, geralmente instaladas em paredes, pisos ou mobíliarios, permitindo a conexão de dispositivos a infraestrutura cadeada.
+
+características:
+*Possuem conectores RJ45 fêmea.
+*podem ser de embutir ou sobrepor.
+*categorias variadas (Cat5e, Cat6, Cat6A, Cat7).
+*proporcionam organização e flexibilidade na rede.
+
+
+- Patch Cord
+
+o que é?
+O patch cord é um cabo de conexão com conectores RJ45 em ambas extremidades usados para interligar dispositivos de rede como computadores.
+
+características:
+Disponível em várias categorias (Cat5e, Cat6, Cat6A, Cat7).
+comprimentos variados (geralmente de 0,5m a 10m).
+Pode ser blindado (STP) ou não blindade (UTP)
+Padrões de cabeamento: T568A e T568B.
+
+- Patch panel
+
+o que é?
+o patch panel é um painel de conexões usado para organizar e distribuir os cabos de rede dentro de um rack. Ele facilita a gestão e manutenção da infraestrutura.
+
+Características:
+Disponível em 12, 24, 48 ou mais RJ45.
+Possuí estrutura modular para a instalação em racks.
+Pode não ser gerenciado (passivo) ou gerenciado (ativo, com monitoramento).
+Facilita a reorganização e manutenção da rede.
+
+- Rack de rede
+
+o que é?
+O rack de rede (ou rack de telecomunicações) é um armario metálico utilizado para acomodar equipamentos de rede como switches, servidores, patch panels e roteadores.
+
+característiacas:
+Tamanhos padronizados em U (altura), como 12U, 24U, 42U.
+pode ser aberto (estrutura vazada) ou fechado (com portas e ventilação)
+
+
+
+Ativos
+
+- roteador
+o roteador é um dispositivo de camada 3 (rede) do modelo OSI que tem a função de encaminhar pacotes entre diferentes redes. Ele utiliza tabelas de roteamento para determinar o melhor caminho para o tráfego de dados.
+
+funções principais:
+*Encaminhamento de pacotes
+*NAT (Network Address Translation)
+*DHCP (Dynamic Host Configuration Protocol)
+*Firewall e Segurança
+*Conexão de redes extintas.
+
+
+
+- Switch
+o Switch é um equipamento de camada 2 (Enlace) do modelo OSI que conecta dispositivos dentro de uma mesma rede local. Ele gerencia o tráfego internamente usando endereços MAC.
+
+Funções principais:
+*encaminhamento baseado em MAC
+*criação de VLANs
+*full duplex
+*segirança
+
+
+-acess point
+o Acess Point permite a conexão de dispositivos sem fio à rede cabeada, funcionando como um "extensor" do sinal.
+
+funções principais:
+*apliação da cobertura Wi-fi
+*autenticação e controle de acesso 
+*suporte a múltiplas  SSIDs e VLANs.

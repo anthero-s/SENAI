@@ -1,0 +1,34 @@
+Access Point
+o Access Point permite a conexão de dispositivos sem fio a rede cabeada, funicionando como um "extensor" de sinal.
+
+funções principais:
+*ampliação de cobertura Wi-fi
+*autenticação e controle de acesso 
+*suporte as multiplas SSIDs.
+
+
+Gateway
+O Gateway é um dispositivo (hardware ou software) que interliga redes diferentes, permitindo a comunicação entre sistemas que usam diferentes protocolos.
+
+funções principais:
+*conversão de endereços e protocolos 
+*encaminhamento de tráfego entre redes
+*implementação de regras de segurança.
+
+
+
+Firewall
+o Firewall protege a rede bloquiando ou permitindo tráfego com base em regras de segurança.
+
+funções principais:
+*filtragem de pacotes
+*bloqueio de acessos não autorizados
+*monitoramento de tráfegos e logs.
+
+tipos de Firewall
+- Firewall de Sofware: instalado em sistemas operacionais (Windowns Defender, IPTables no Linux).
+- Firewall de hardware: equipamentos dedicados que protegem redes corporativas.
+
+
+Transceiver - Transceptor/Conversor
+os Transceiver são dispositivos responsáveis pela cobersão e transmissão de sinais ópticos ou elétricos em redes de comunicação. Eles são usados para conectar Switches, roteadores e outrso equipamentos de redes diferentes tipos de mídia.

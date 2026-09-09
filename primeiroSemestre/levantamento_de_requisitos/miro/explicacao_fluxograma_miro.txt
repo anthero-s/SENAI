@@ -1,0 +1,23 @@
+Cliente:
+
+- Visualizar o cardápio
+- Escolher o que irá pedir 
+- Inserir o endereço. INCLUDE: pagamento na entrega ou no aplicativo
+- Efetuar o pagamento
+- Esperar a confirmção do restaurante. EXTEND: rastrear o pedido em tempo real
+- Receber o pedido. EXTEND: reportar problema (caso hajá). EXTEND: restaurante - Consertar o problema (caso tenha)
+
+
+
+Restaurante:
+
+- Preparar o pedido do cliente
+- Confirmar para o cliente que o pedido esta pronto
+- Dar o pedido para o entregador
+
+
+Entregador: 
+
+- Verificar o endereço do cliente 
+- Sair para a entrega 
+- Entregar para o cliente

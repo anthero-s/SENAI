@@ -1,0 +1,222 @@
+Fedora:
+
+Objetivo: É uma distribuição comunitária patrocinada pela Red Hat, com foco em tecnologia de ponta e inovação.
+
+Características: Sempre possui pacotes atualizados, é ideal para desenvolvedores e usuários que querem experimentar as últimas novidades do mundo Linux. Utiliza o dnf como gerenciador de pacotes.
+
+Indicado para: Usuários que buscam estabilidade, mas sem abrir mão das versões mais recentes de softwares e tecnologias.
+
+Kali Linux:
+
+Objetivo: Especializada em segurança e testes de penetração.
+
+Características: Vem com várias ferramentas de segurança e hacking ético pré-instaladas. Baseada no Debian, tem uma grande comunidade voltada para profissionais de segurança.
+
+Indicado para: Profissionais de segurança cibernética, hackers éticos e entusiastas de testes de penetração.
+
+SteamOS:
+
+Objetivo: Desenvolvido pela Valve, é uma distribuição voltada para jogos, especialmente para a plataforma Steam.
+
+Características: Tem como foco a otimização para o uso em Steam Machines, computadores dedicados ao jogo. Baseado no Debian, usa um ambiente simplificado com suporte nativo para Steam.
+
+Indicado para: Usuários que querem transformar seu PC em uma máquina de jogos, especialmente voltada para a plataforma Steam.
+
+Arch Linux:
+
+Objetivo: É uma distribuição minimalista que dá ao usuário controle total sobre o sistema.
+
+Características: Famosa por ser uma "rolling release" (atualização contínua), sendo ideal para quem quer personalizar cada aspecto do sistema. Utiliza o pacman como gerenciador de pacotes.
+
+Indicado para: Usuários avançados que querem aprender profundamente sobre como o Linux funciona e que desejam configurar um sistema do zero.
+
+Raspberry Pi OS (antigo Raspbian):
+
+Objetivo: Sistema operacional baseado em Debian, otimizado para a Raspberry Pi.
+
+Características: Focado em desempenho e eficiência no uso da Raspberry Pi, com uma interface amigável e várias ferramentas voltadas para educação e desenvolvimento.
+
+Indicado para: Quem usa ou deseja usar o Raspberry Pi para projetos educacionais, makers e desenvolvimento de software.
+
+Ubuntu Server:
+
+Objetivo: Versão do Ubuntu voltada para servidores, sem interface gráfica.
+
+Características: Popular em ambientes de servidores e nuvem, é estável, possui grande suporte da comunidade e pacotes de fácil instalação.
+
+Indicado para: Administradores de sistemas, servidores e quem busca uma plataforma confiável para ambientes de produção.
+
+Debian:
+
+Objetivo: Uma das distribuições mais antigas e estáveis do Linux.
+
+Características: Famosa pela estabilidade e segurança. Oferece uma enorme quantidade de pacotes e é a base de muitas outras distribuições, como o Ubuntu.
+
+Indicado para: Usuários que buscam estabilidade e um sistema sólido para servidores ou desktops.
+
+Slackware:
+
+Objetivo: Uma das distribuições mais antigas, com foco em simplicidade e minimalismo.
+
+Características: Famosa pela abordagem de manter o sistema o mais "puro" possível, sem muitas mudanças ou automatizações. Não tem muitas ferramentas gráficas de configuração, exigindo um maior conhecimento do usuário.
+
+Indicado para: Usuários avançados que buscam um sistema sem distrações ou simplificações e preferem um controle total sobre o que é instalado no sistema.
+
+
+
+
+Fedora:
+
+Ano de lançamento: 2003
+
+Foi lançado como uma distribuição comunitária patrocinada pela Red Hat, com foco em inovação.
+
+Kali Linux:
+
+Ano de lançamento: 2013
+
+Substituiu o BackTrack, oferecendo uma distribuição focada em testes de penetração e segurança.
+
+SteamOS:
+
+Ano de lançamento: 2013
+
+Lançado pela Valve para ser o sistema operacional das Steam Machines, projetadas para jogos.
+
+Arch Linux:
+
+Ano de lançamento: 2002
+
+Criado com o objetivo de ser uma distribuição simples, mas poderosa, para usuários avançados, adotando o modelo de "rolling release".
+
+Raspberry Pi OS (Raspbian):
+
+Ano de lançamento: 2012 (originalmente como Raspbian)
+
+Foi criado para a plataforma Raspberry Pi, com foco em performance e facilidade de uso para iniciantes.
+
+Ubuntu Server:
+
+Ano de lançamento: 2004
+
+Embora o Ubuntu tenha sido lançado em 2004, a versão Server foi lançada como parte da estratégia para tornar o Ubuntu popular tanto em desktops quanto em servidores.
+
+Debian:
+
+Ano de lançamento: 1993
+
+Uma das distribuições mais antigas, que serve de base para muitas outras, como Ubuntu e Linux Mint.
+
+Slackware:
+
+Ano de lançamento: 1993
+
+Foi uma das primeiras distribuições Linux a ser criada e continua a ser uma das mais tradicionais.
+
+
+
+
+Fedora
+História:
+Fedora foi lançado em 2003 pela Red Hat, como uma distro comunitária com foco em inovação e em tecnologias de ponta. Ela serviu como um campo de testes para novas funcionalidades e pacotes que poderiam ser eventualmente incorporados ao Red Hat Enterprise Linux (RHEL). Fedora tem uma base bastante focada em software livre e código aberto.
+
+Gerenciador de Pacotes:
+Fedora usa o DNF (Dandified YUM) como seu gerenciador de pacotes. DNF é o sucessor do YUM e é utilizado para instalação, remoção e atualização de pacotes no sistema. Os pacotes são geralmente no formato RPM (Red Hat Package Manager).
+
+php-template
+Copiar
+Editar
+sudo dnf install <pacote>
+2. Kali Linux
+História:
+Kali Linux foi lançado em 2013 pela Offensive Security, sucedendo o BackTrack. Kali é uma distribuição voltada para testes de penetração e segurança, e inclui centenas de ferramentas de segurança, como scanners de vulnerabilidades, sniffers, exploits e muito mais. Seu objetivo é oferecer uma plataforma robusta para profissionais de segurança cibernética e hackers éticos.
+
+Gerenciador de Pacotes:
+Kali Linux utiliza o gerenciador de pacotes APT (Advanced Package Tool), que é utilizado em distribuições baseadas no Debian. O APT permite gerenciar pacotes com a extensão .deb.
+
+php-template
+Copiar
+Editar
+sudo apt install <pacote>
+3. SteamOS
+História:
+SteamOS foi lançado pela Valve em 2013 com o objetivo de ser o sistema operacional das Steam Machines — PCs voltados para jogos. A ideia era criar um ambiente de entretenimento otimizado para o Steam, e a distribuição é baseada no Debian. Além disso, a Valve tem trabalhado para integrar a SteamOS com o Steam Big Picture Mode, que é uma interface mais amigável para jogos em tela cheia.
+
+Gerenciador de Pacotes:
+SteamOS também utiliza APT como gerenciador de pacotes, pois é baseado no Debian. A principal diferença entre o SteamOS e outras distribuições baseadas em Debian é o foco em jogos e a interface projetada para controle remoto e TV.
+
+php-template
+Copiar
+Editar
+sudo apt install <pacote>
+4. Arch Linux
+História:
+Arch Linux foi lançado em 2002 e tem como filosofia ser uma distribuição simples, flexível e rolling release (ou seja, não há "versões" estáticas, apenas atualizações contínuas). Arch é uma distro voltada para usuários avançados, com foco na personalização do sistema e no uso do Arch Wiki como fonte de documentação.
+
+Gerenciador de Pacotes:
+Arch usa o pacman como seu gerenciador de pacotes, que é uma das principais características que definem essa distribuição. O pacman lida com pacotes no formato .pkg.tar.xz e oferece uma maneira muito eficiente de instalar e atualizar pacotes.
+
+php-template
+Copiar
+Editar
+sudo pacman -S <pacote>
+5. Raspberry Pi OS (Raspbian)
+História:
+Raspberry Pi OS, anteriormente conhecido como Raspbian, foi lançado em 2012 como um sistema operacional dedicado para o Raspberry Pi, um microcomputador de baixo custo. Ele foi desenvolvido para fornecer uma plataforma de aprendizado acessível, principalmente em educação e projetos de hobby. Raspberry Pi OS é baseado no Debian.
+
+Gerenciador de Pacotes:
+Raspberry Pi OS usa APT como o gerenciador de pacotes, devido à sua base Debian. Os pacotes são .deb, e o APT facilita a instalação e atualização de software.
+
+php-template
+Copiar
+Editar
+sudo apt install <pacote>
+6. Ubuntu Server
+História:
+Ubuntu foi lançado em 2004 por Mark Shuttleworth com o objetivo de fornecer uma distribuição fácil de usar, com suporte de longo prazo (LTS) e uma forte comunidade. A versão Server foi introduzida logo em seguida, visando atrair usuários para servidores e data centers. Hoje, o Ubuntu Server é uma das distribuições mais populares em servidores.
+
+Gerenciador de Pacotes:
+Ubuntu Server, assim como outras distribuições baseadas em Debian, utiliza APT como o gerenciador de pacotes. Além disso, Snap é uma tecnologia mais recente que está sendo incorporada para fornecer pacotes universais no Ubuntu.
+
+php-template
+Copiar
+Editar
+sudo apt install <pacote>
+7. Debian
+História:
+Debian foi lançado em 1993 por Ian Murdock e se tornou uma das distribuições mais antigas e influentes do Linux. Debian é conhecida por sua estabilidade, segurança e política de software livre. Muitas distribuições, como Ubuntu, Kali Linux e Linux Mint, têm o Debian como base.
+
+Gerenciador de Pacotes:
+Debian usa o APT como seu gerenciador de pacotes, que lida com pacotes .deb. O APT é amplamente utilizado em distribuições baseadas no Debian e é considerado um dos melhores sistemas de gerenciamento de pacotes.
+
+php-template
+Copiar
+Editar
+sudo apt install <pacote>
+8. Slackware
+História:
+Slackware foi lançado em 1993 por Patrick Volkerding e é uma das distribuições mais antigas do Linux. Ela é conhecida por ser minimalista e mais próxima do "estilo puro" do Unix, o que significa que o usuário tem mais controle sobre a configuração do sistema, sem muitos automatismos.
+
+Gerenciador de Pacotes:
+Slackware utiliza pkgtool e slackpkg como seus gerenciadores de pacotes, mas em comparação com outras distribuições, ele tende a ser mais manual. O sistema de pacotes usa o formato .tgz e não há dependências automáticas de pacotes como em outras distribuições.
+
+php-template
+Copiar
+Editar
+sudo slackpkg install <pacote>
+Resumo dos Gerenciadores de Pacotes
+Fedora: DNF (RPM)
+
+Kali Linux: APT (DEB)
+
+SteamOS: APT (DEB)
+
+Arch Linux: pacman (pkg.tar.xz)
+
+Raspberry Pi OS: APT (DEB)
+
+Ubuntu Server: APT (DEB)
+
+Debian: APT (DEB)
+
+Slackware: pkgtool, slackpkg (TGZ)

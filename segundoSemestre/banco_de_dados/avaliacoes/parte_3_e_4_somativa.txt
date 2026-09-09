@@ -1,0 +1,71 @@
+-- 1. Tabela AUTORES
+CREATE TABLE AUTORES (
+    AutorID INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(255) NOT NULL,
+    Nacionalidade VARCHAR(100) NOT NULL
+);
+
+-- 2. Tabela LIVROS
+CREATE TABLE LIVROS (
+    ISBN VARCHAR(20) PRIMARY KEY,
+    Titulo VARCHAR(255) NOT NULL,
+    AnoPublicacao YEAR NOT NULL,
+    Editora VARCHAR(100) NOT NULL
+);
+
+-- 3. Tabela associativa LIVRO_AUTOR (Resolve N:M)
+CREATE TABLE LIVRO_AUTOR (
+    ISBN VARCHAR(20) NOT NULL,
+    AutorID INT NOT NULL,
+    PRIMARY KEY (ISBN, AutorID), -- Chave Primária Composta
+    FOREIGN KEY (ISBN) REFERENCES LIVROS(ISBN),
+    FOREIGN KEY (AutorID) REFERENCES AUTORES(AutorID)
+);
+
+-- 4. Tabela MEMBROS
+CREATE TABLE MEMBROS (
+    Matricula VARCHAR(50) PRIMARY KEY,
+    NomeCompleto VARCHAR(255) NOT NULL,
+    Endereco VARCHAR(255) NOT NULL,
+    Telefone VARCHAR(20)
+);
+
+-- 5. Tabela EXEMPLARES (Depende de LIVROS)
+CREATE TABLE EXEMPLARES (
+    ExemplarID VARCHAR(50) PRIMARY KEY,
+    ISBN VARCHAR(20) NOT NULL,
+    Status ENUM('Disponível', 'Emprestado', 'Em Manutenção') NOT NULL DEFAULT 'Disponível',
+    FOREIGN KEY (ISBN) REFERENCES LIVROS(ISBN)
+);
+
+-- 6. Tabela EMPRESTIMOS (Depende de MEMBROS e EXEMPLARES)
+CREATE TABLE EMPRESTIMOS (
+    EmprestimoID INT AUTO_INCREMENT PRIMARY KEY,
+    Matricula VARCHAR(50) NOT NULL,
+    ExemplarID VARCHAR(50) NOT NULL,
+    DataEmprestimo DATE NOT NULL,
+    DataPrevistaDevolucao DATE NOT NULL,
+    DataDevolucao DATE NULL, -- Nula até a devolução ser efetuada
+    FOREIGN KEY (Matricula) REFERENCES MEMBROS(Matricula),
+    FOREIGN KEY (ExemplarID) REFERENCES EXEMPLARES(ExemplarID)
+);
+
+-- ----------------------------------------------------------------------
+-- PARTE 4: ADMINISTRAÇÃO E MANUTENÇÃO DO BANCO DE DADOS (DDL e DCL)
+-- ----------------------------------------------------------------------
+
+-- 4.1. Comando SQL para adicionar a nova coluna 'Genero' na tabela LIVROS (DDL)
+ALTER TABLE LIVROS
+ADD COLUMN Genero VARCHAR(50);
+
+-- 4.2. Comando SQL para criar usuário 'estagiario' e conceder permissão ALTER na tabela LIVROS (DCL)
+-- NOTA: Os comandos abaixo são específicos para MySQL. O nome do banco de dados foi assumido como 'biblioteca'.
+
+-- Cria o usuário 'estagiario' com a senha 'mudar123'
+CREATE USER 'estagiario'@'localhost' IDENTIFIED BY 'mudar123';
+
+-- Concede APENAS a permissão ALTER na tabela LIVROS
+GRANT ALTER ON biblioteca.LIVROS TO 'estagiario'@'localhost';
+
+-- Aplica as mudanças de permissão
+FLUSH PRIVILEGES;

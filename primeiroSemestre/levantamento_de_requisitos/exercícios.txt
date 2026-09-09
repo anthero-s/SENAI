@@ -1,0 +1,15 @@
+exercicio 1 
+
+RF01: Buscar no banco de dados para verificar se os clientes repetiram a hospedagem dentro de 6 meses e aplicar o desconto de 15 porcento.
+RF02: analisar se a reserva vai cair em um feriado e cobrar o os 50% antecipado.
+RF03: Fazer o cadastro pedindo algum documento que confirme a idade.
+
+RNF01: O sistema dever funcionar 100% offline.
+RNF02: Sistema bloquea o acesso simultâneo.
+
+exercicio 2
+RF01: Colocar as promoçóes do dia em destaque na página principal do menu.
+RF02: Verificar se o pedido do cliente é acima de 50 reais e pedir o CEP do mesmo para verificar se esta em um raio de 5km para ganhar a entrega grátis.
+
+RNF01: O site tem que ter um tempo de resposta de no máximo 3 segundos.
+RNF02: Pagar somente com dinheiro ou PIX na entrega.

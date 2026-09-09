@@ -1,0 +1,73 @@
+{
+    "Aluno": {
+        "matricula": 2226,
+        "nome_completo": "Anthero Franco Sprana",
+        "email": "anthero.sprana@portalsesisp.org",
+        "idade": 17,
+        "bolsista": false,
+        "media_final": 8.5,
+        "curso": null
+    }
+}
+
+
+{
+    "Turma": {
+        "codigo_turma": "HTRFII88",
+        "periodo": "Manhã",
+        "Professor": {
+            "nome": "Celso",
+            "area": "back-end"
+        },
+        "Alunos": [
+            {
+                "nome": "Enzo",
+                "matricula": 12324
+            },
+            {
+                "nome": "Thiago",
+                "matricula": 6543256
+            }
+        ]
+    }
+}
+
+
+
+
+{
+    "Pedido": {
+        "id_pedido": 55555,
+        "data_pedido": "2024-10-27T10:30:00",
+        "Status": "Pronto",
+        "Cliente": {
+            "nome": "José",
+            "emial": "jose.com@gmial.com"
+        },
+        "endereco_entrega": {
+            "Rua": "estado de santa catarina",
+            "numero": 198,
+            "CEP": "13324-487"
+        },
+        "Itens": [
+            {
+                "id_produto": 151515,
+                "nome_produto": "cachorro quente",
+                "quantidade": 2,
+                "preco_unitario": 20.00,
+            },
+            {
+                "nome_produto": "teclado",
+                "quantidade": 1,
+                "preco_unitario": 3000.00,
+                "id_produto": 8888,
+            },
+            {
+                "nome_produto": "lápis",
+                "quantidade": 6,
+                "preco_unitario": 2.99,
+                "id_produto": 4141
+            }
+        ]
+    }
+}

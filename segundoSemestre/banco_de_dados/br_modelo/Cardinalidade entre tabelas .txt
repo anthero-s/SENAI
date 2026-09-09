@@ -1,0 +1,13 @@
+Cardinalidade entre tabelas 1.
+
+ Um-para-um (\(1:1\)) O que é: 
+Cada registro em uma tabela se relaciona com no máximo um registro na outra tabela.
+Exemplo:Uma pessoa pode dirigir no máximo um carro, e um carro é dirigido por no máximo uma pessoa em um determinado momento (em um sistema que controla um carro para uma única pessoa). 
+
+2. Um-para-muitos(\(1:N\)) O que é:
+ Um registro em uma tabela pode se relacionar com vários registros na outra, mas cada registro na segunda tabela se relaciona com apenas um na primeira.
+Exemplo: Um cliente pode ter muitos pedidos, mas cada pedido pertence a apenas um cliente. 
+
+3. Muitos-para-muitos (\(N:N\)) O que é:
+ Um registro em uma tabela pode se relacionar com vários registros na outra, e vice-versa.
+Exemplo: Vários alunos podem se matricular em vários cursos.
