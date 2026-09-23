@@ -1,7 +1,7 @@
 {
-  "name": "livraria-ebooks-api",
+  "name": "loja-jogos-api",
   "version": "1.0.0",
-  "description": "API de Livraria de E-books para exercício de Swagger",
+  "description": "API de Loja de Jogos para exercício de Swagger",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

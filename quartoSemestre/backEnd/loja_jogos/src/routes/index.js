@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const livroRoutes = require('./livroRoutes');
+const jogoRoutes = require('./jogoRoutes');
 
-router.use('/livros', livroRoutes);
+router.use('/jogos', jogoRoutes);
 
 module.exports = router;
