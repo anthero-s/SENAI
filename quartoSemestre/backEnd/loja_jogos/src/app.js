@@ -2,11 +2,13 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const routes = require('./routes');
-
+const swaggerUi = require('swagger-ui-express')
+const swaggerDocument = require('./swagger_output.json')
 app.use(cors());
 app.use(express.json());
 
 // Registro de rotas
 app.use(routes);
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 module.exports = app;

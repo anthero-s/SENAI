@@ -1,0 +1,11 @@
+Prompt utilizado no auxílio da inteligência artificial para criar o arquivo swagger_output.jason
+
+"Analise os arquivos da minha API Node.js/Express que vou enviar e gere o arquivo swagger_output.json completo.
+API:
+Nome: API Loja de Jogos
+Versão: 1.0.0
+Servidor: localhost:3001
+Não invente rotas ou campos. Use exatamente os nomes existentes no código. O id é gerado automaticamente e não deve ser obrigatório no cadastro."
+
+
+"Refaça o arquivo swagger_output por conta que eu mudei o comentário no #swagger.parameters['body']"
